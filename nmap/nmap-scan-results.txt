@@ -1,0 +1,34 @@
+# Nmap 7.94SVN scan initiated Mon Aug  4 15:13:56 2025 as: nmap -sS -oN nmap/nmap-scan-results.txt 192.168.1.0/24
+Nmap scan report for _gateway (192.168.1.1)
+Host is up (0.016s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT    STATE    SERVICE
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 86:C2:B7:05:18:1P (Nettechno LTD)
+
+Nmap scan report for 192.168.1.2
+Host is up (0.0044s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+8000/tcp open  http-alt
+8443/tcp open  https-alt
+9010/tcp open  sdr
+MAC Address: 58:F6:45:75:7C:7M (Huawai Digital Technology)
+
+Nmap scan report for 192.168.1.3
+Host is up (0.026s latency).
+All 1000 scanned ports on 192.168.1.3 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 26:DQ:8B:27:68:16 (Unknown)
+
+Nmap scan report for aspire (192.168.1.9)
+Host is up (0.000013s latency).
+All 1000 scanned ports on aspire (192.168.1.9) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Aug  4 15:14:25 2025 -- 256 IP addresses (4 hosts up) scanned in 29.22 seconds

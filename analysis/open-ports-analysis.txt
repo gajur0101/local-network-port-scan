@@ -1,0 +1,15 @@
+Host: 192.168.1.1
+Open Ports:
+	- 53/tcp  open     domain 	- Resolves domain names to IPs
+	- 80/tcp  open     http		- Standard unencrypted web service
+	- 443/tcp open     https	- Secure web communication using TLS/SSL
+
+Host: 192.168.1.2
+Open Ports:
+       	- 8000/tcp open  http-alt	- Often used for APIs or dev services
+	- 8443/tcp open  https-alt	- Commonly used for admin panels or APIs over TLS
+	- 9010/tcp open  sdr		- Could be used by debugging tools, admin consoles, IoT apps
+
+Total devices found : 6
+
+

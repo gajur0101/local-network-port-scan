@@ -1,0 +1,17 @@
+1. DNS - 53 port open on host.
+Risk: Can be abused for amplification attacks or info leaks.
+
+2. http - 80 port open on host.
+Risk: Risk of sniffing, outdated servers, XSS etc.
+
+3. https - 443 port open on host.
+Risk: Check for weak ciphers, expired certs
+
+4. http-alt - 8000 port open on host.
+Risk: Can be misconfigured, may lack auth
+
+5. https-alt - 8443 port open on host.
+Risk: Frequently exposed admin portals
+
+6. sdr - 9010 port open on host.
+Risk: If no authentication is in place, attackers may view or control SDR services
